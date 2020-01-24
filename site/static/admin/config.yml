@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Severity", name: "severity", widget: "select", options: ['High', 'Medium', 'Low']}
-      - {label: Title, name: title, widget: string},
+      - {label: Title, name: title, widget: string}
       - {label: "Headline", name: "headline", widget: "object", fields: [
           {label: 'EN', name: 'en', widget: 'string'},
           {label: 'FR', name: 'fr', widget: 'string'}]}
