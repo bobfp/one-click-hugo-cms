@@ -15,11 +15,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
-    label: "Pages"
+  - name: "homepages"
+    label: "Home Page"
     files:
       - file: "site/content/_index.fr.md"
-        label: "Home Page"
+        label: "Home Page [FR]"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
       - file: "site/content/_index.md"
-        label: "Home Page"
+        label: "Home Page [EN]"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}
@@ -56,6 +56,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
+  - name: "other pages"
+    label: "Other Pages"
+    files:
       - file: "site/content/contact/_index.md"
         label: "Contact Page"
         name: "contact"
