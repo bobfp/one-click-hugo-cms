@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/_index.fr.md"
         label: "Home Page [FR]"
-        name: "home"
+        name: "home-fr"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
