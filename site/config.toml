@@ -3,6 +3,20 @@ languageCode = "en-us"
 languageLang = "en"
 title = "Homepage"
 
+[languages]
+  [languages.en]
+    title = "Homepage"
+    weight = 1
+    [languages.en.params]
+      linkedin = "https://linkedin.com/whoever"
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    [languages.fr.params]
+      linkedin = "https://linkedin.com/fr/whoever"
+      [languages.fr.params.navigation]
+        help = "Aide"
+
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
