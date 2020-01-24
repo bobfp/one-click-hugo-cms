@@ -22,7 +22,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Severity", name: "severity", widget: "select", options: ['High', 'Medium', 'Low']}
-      - {label: "Title", name: "title", widget: "object", fields: [
+      - {label: Title, name: title, widget: string},
+      - {label: "Headline", name: "headline", widget: "object", fields: [
           {label: 'EN', name: 'en', widget: 'string'},
           {label: 'FR', name: 'fr', widget: 'string'}]}
       - {label: "Body", name: "body", widget: "object", fields: [
@@ -33,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/_index.fr.md"
         label: "Home Page [FR]"
-        name: "homefr"
+        name: "home-fr"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
@@ -69,7 +70,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-  - name: "other pages"
+  - name: "pages"
     label: "Other Pages"
     files:
       - file: "site/content/contact/_index.md"
