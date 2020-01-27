@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/_index.fr.md"
         label: "Home Page [FR]"
         name: "home-fr"
-        extension: "fd.md"
+        extension: "fr.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
