@@ -1,21 +1,23 @@
 ---
-title: Great coffee with a conscience
-subtitle: Support sustainable farming while enjoying a cup
+title: Super café avec une conscience
+subtitle: Soutenez l'agriculture durable tout en dégustant une tasse
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Pourquoi Kaldi?
   text: >-
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Kaldi est le magasin de café pour tous ceux qui croient qu'un bon café ne
+    doit pas seulement avoir bon goût, il doit aussi faire du bien. Nous nous
+    approvisionnons tous nos haricots directement auprès de petits agriculteurs
+    durables et nous nous assurons qu'une partie des bénéfices est réinvestie
+    dans leurs communautés.
 intro:
-  heading: What we offer
-  text: >-
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+  heading: Ce que nous offrons
+  text: >
+    Kaldi est l'endroit ultime pour les amateurs de café qui veulent en savoir
+    plus sur l'origine de leur java et soutenir les agriculteurs qui l'ont
+    cultivé. Nous prenons la production, la torréfaction et le brassage du café
+    très au sérieux et nous sommes heureux de transmettre ces connaissances à
+    tout le monde.
 products:
   - image: img/illustrations-coffee.svg
     text: >-
@@ -31,11 +33,12 @@ products:
       own beans or just bought your first french press, you’ll find a gadget to
       fall in love with in our shop.
 values:
-  heading: Our values
+  heading: Nos valeurs
   text: >-
-    Coffee is an amazing part of human culture but it has a dark side too – one
-    of colonialism and mindless abuse of natural resources and human lives. We
-    want to turn this around and return the coffee trade to the drink’s
-    exhilarating, empowering and unifying nature.
+    Le café est une partie étonnante de la culture humaine, mais il a aussi un
+    côté sombre - celui du colonialisme et de l'abus insensé des ressources
+    naturelles et des vies humaines. Nous voulons renverser la vapeur et ramener
+    le commerce du café à la nature exaltante, autonomisante et unificatrice de
+    la boisson.
 ---
 
